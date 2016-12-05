@@ -10,6 +10,15 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    
+    @IBOutlet weak var name: UILabel!
+    
+    @IBAction func stuff(_ sender: Any) {
+        
+        name.text = "sup"
+    }
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
